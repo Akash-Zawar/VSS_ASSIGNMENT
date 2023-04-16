@@ -1,0 +1,90 @@
+body {
+  margin: 20px auto;
+  padding: 0 40px;
+  max-width: 769px;
+}
+
+main {
+  margin: auto 10px;
+  border: 12px rgb(128, 128, 128, 0.2) solid;
+  border-radius: 15px;
+  padding: 60px;
+
+}
+
+.headline {
+  padding-top: 20px;
+}
+
+#title1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 620;
+}
+
+#para {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(9, 9, 9, 0.67);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.second {
+  padding-top: 30px;
+}
+
+.inputspace {
+  max-width: 600px;
+  height: 38px;
+  border: 2px solid rgba(127, 127, 127, 0.7);
+  border-radius: 8px;
+  margin-top:10px;
+}
+
+.requirements{
+   display:flex;
+   flex-wrap: wrap;
+   column-gap: 60px; 
+   padding: 25px 0;
+}
+
+.condition{
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    margin:0;
+    font-size: 18px;
+}
+.right-tick{
+    margin-right: 10px ;
+    height:20px;
+    width: 20px;
+}
+
+.right-tick img{
+    height:100%;
+    width: 100%;
+}
+
+
+.button{
+  min-width: 600px;
+  color:white; 
+  background-color: rgb(0, 0, 230);
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 12px 0;   
+}
+
