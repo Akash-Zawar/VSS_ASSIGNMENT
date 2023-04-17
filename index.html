@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reset Password Page</title>
     <link rel="stylesheet" href="./asset/css/style.css">
+    
   </head>
   <body>
   <div>
@@ -19,10 +20,10 @@
     </div>
    
     <div class="inputs">
-        <label for="pass" class="inputTitle">Create a Password</label>
-        <input type="password" id="pass" class="inputspace">
+        <label for="pass1" class="inputTitle">Create a Password</label>
+        <input type="password" id="pass1" class="inputspace" value="">
         <label for="pass2" class="inputTitle second">Confirm New Password</label>
-        <input type="password" id="pass2" class="inputspace">
+        <input type="password" id="pass2" class="inputspace" value="">
     </div>
     <div class="requirements">
         <p  class="condition"><span class="right-tick"><img src="./asset/image/right-tick.png" alt="right-tick"></span>one lowercase character</p>
@@ -32,9 +33,10 @@
         <p  class="condition"><span class="right-tick"><img src="./asset/image/right-tick.png" alt="right-tick"></span>one number</p>
     </div>
     <div>
-        <button class="button">Reset Password</button>
+        <button class="button" id="submitButton">Reset Password</button>
     </div>
     </main>
   </div>
   </body>
+  <script defer src="./asset/js/script.js"></script>
 </html>
