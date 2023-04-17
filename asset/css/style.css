@@ -9,7 +9,6 @@ main {
   border: 12px rgb(128, 128, 128, 0.2) solid;
   border-radius: 15px;
   padding: 60px;
-
 }
 
 .headline {
@@ -49,42 +48,51 @@ main {
   height: 38px;
   border: 2px solid rgba(127, 127, 127, 0.7);
   border-radius: 8px;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
-.requirements{
-   display:flex;
-   flex-wrap: wrap;
-   column-gap: 60px; 
-   padding: 25px 0;
+.requirements {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  padding: 25px 0;
 }
 
-.condition{
-    padding: 5px 5px;
-    display: flex;
-    align-items: center;
-    margin:0;
-    font-size: 18px;
+.condition {
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 18px;
 }
-.right-tick{
-    margin-right: 10px ;
-    height:20px;
-    width: 20px;
-}
-
-.right-tick img{
-    height:100%;
-    width: 100%;
+.right-tick {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
 }
 
+.right-tick img {
+  height: 100%;
+  width: 100%;
+}
 
-.button{
+.warning {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.button {
   min-width: 600px;
-  color:white; 
+  color: white;
   background-color: rgb(0, 0, 230);
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
-  padding: 12px 0;   
+  padding: 12px 0;
 }
-
