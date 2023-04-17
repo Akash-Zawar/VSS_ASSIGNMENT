@@ -16,13 +16,17 @@ document.addEventListener("DOMContentLoaded", function (e) {
   
       console.log(_password);
       console.log(_confirmPassword);
-      checkLength(_password);
-      compare(_password,_confirmPassword);
-      checkUpperCase(_password);
-      checkLowerCase(_password);
-      checkNumber(_password);
-      checkSpecialCharacter(_password);   
-  
+      const cL = checkLength(_password);
+      const com = compare(_password,_confirmPassword);
+      const cUc = checkUpperCase(_password);
+      const cLc = checkLowerCase(_password);
+      const cNum = checkNumber(_password);
+      const cSc = checkSpecialCharacter(_password);   
+        changeImage(cLc,"img1");
+        changeImage(cSc,"img2");
+        changeImage(cUc,"img3");
+        changeImage(cL,"img4");
+        changeImage(cNum,"img5");
     });
   });
   
@@ -86,4 +90,14 @@ document.addEventListener("DOMContentLoaded", function (e) {
       console.log("must contain a Special Character");
       return false;
   }
-  
+
+  function changeImage(a,id) {
+    var image = document.getElementById(id);
+    if (a) {
+      image.src = "./asset/image/right-tick.png";
+      return;
+    } else {
+      image.src = "./asset/image/red-cross.png";
+      return;
+    }
+  }
